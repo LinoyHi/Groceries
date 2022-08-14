@@ -1,0 +1,50 @@
+[
+    {
+        "name": "tomatos",
+        "price": 20,
+        "quantity": 10,
+        "imgLink": "https://i5.walmartimages.com/asr/9f8b7456-81d0-4dc2-b422-97cf63077762.0ddba51bbf14a5029ce82f5fce878dee.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+    },
+    {
+        "name": "potatos",
+        "price": 5,
+        "quantity": 20,
+        "imgLink": "https://api.time.com/wp-content/uploads/2014/11/potato.jpg?quality=85&w=1600"
+    },
+    {
+        "name": "cucumber",
+        "price": 8,
+        "quantity": 100,
+        "imgLink": "https://www.kashmirbazar.co.uk/product/fresh-cucumber-whole-each/"
+    },
+    {
+        "name": "brocoli",
+        "price": 10,
+        "quantity": 30,
+        "imgLink": "https://st3.depositphotos.com/1043285/13878/i/600/depositphotos_138783014-stock-photo-green-fresh-broccoli.jpg"
+    },
+    {
+        "name": "banana",
+        "price": 15,
+        "quantity": 5,
+        "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Banana.png/978px-Banana.png?20070731033015"
+    },
+    {
+        "name": "carrot",
+        "price": 18,
+        "quantity": 300,
+        "imgLink": "https://kiranacompare.com/wp-content/uploads/2020/11/The-lost-plot-growing-carrots-iStock-471680420.jpg"
+    },
+    {
+        "name": "lemon",
+        "price": 6,
+        "quantity": 50,
+        "imgLink": "https://befreshcorp.net/wp-content/uploads/2017/07/product-packshot-lemon.jpg"
+    },
+    {
+        "name": "bread",
+        "price": 25,
+        "quantity": 86,
+        "imgLink": "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image_2x/public/2020-02/the-easiest-loaf-of-bread-youll-ever-bake.jpg?itok=LsBnSw0g"
+    }
+]

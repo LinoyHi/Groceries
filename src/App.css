@@ -4,11 +4,13 @@
 
 .borders{
   border: 1px solid black;
+  cursor: pointer;
 }
 
 .grocListImg{
   width: 3vw;
   height: 3vw;
+  cursor: pointer;
 }
 
 .App-logo {

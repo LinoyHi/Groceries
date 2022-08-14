@@ -66,6 +66,7 @@ function App() {
               </tr>
             </tbody>
           </table>
+          <button onClick={true} style={{width:'8vw',margin:"0px 2.5vw 0px 0px"}}>Order</button>
         </ul>
       </body>
       <footer>

@@ -11,6 +11,15 @@ body{
   cursor: pointer;
 }
 
+.outofstock{
+  opacity: 0.3;
+  position: absolute;
+}
+
+.outWords{
+  position: sticky;
+}
+
 .grocListImg{
   width: 3vw;
   height: 3vw;

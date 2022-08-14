@@ -81,8 +81,16 @@ function App() {
   }
 
   function reset(){
-    setitems(getitems())
     settotals({ price: 0, items: 0 })
+    const grocItems= getitems()
+    for(const name in shoppingItems){
+      for(const i of grocItems){
+        if(i.name===name){
+          i.quantity+=+shoppingItems[name].quantity
+        }
+      }
+    }
+    setitems(grocItems)
     setshoppingItems({})
     setshoppinglist([])
     handleClose()

@@ -25,18 +25,29 @@ function App() {
     const id = e.target.parentElement.id
     if (id || id === 0) {
       const item = { ...items[id] }
-      if (shoppingItems[item.name]) {
-        item.quantity = shoppingItems[item.name].quantity + 1
+      if(item.quantity>0){
+        if (shoppingItems[item.name]) {
+          item.quantity = shoppingItems[item.name].quantity + 1
+        }
+        else {
+          item.quantity = 1
+        }
+        settotals({ price: totals.price + item.price, items: totals.items + 1 })
+        item.price = item.quantity * item.price
+        const shoppingcart = { ...shoppingItems }
+        shoppingcart[item.name] = item
+        setshoppingItems(shoppingcart)
+        items[id].quantity -= 1
+        if(items[id].quantity==0){
+          let grocItems= [...items.slice(0,id),...items.slice(Number(id)+1),items[id]]
+          let count = 0
+          for(const i of grocItems){
+            i.id = count
+            count++
+          }
+          setitems(grocItems)
+        }
       }
-      else {
-        item.quantity = 1
-      }
-      settotals({ price: totals.price + item.price, items: totals.items + 1 })
-      item.price = item.quantity * item.price
-      const shoppingcart = { ...shoppingItems }
-      shoppingcart[item.name] = item
-      setshoppingItems(shoppingcart)
-      items[id].quantity -= 1
     }
   }
 

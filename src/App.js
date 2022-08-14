@@ -63,7 +63,8 @@ function App() {
   function orderApproved() {
     setmodalbody(
       <div>
-        <h2>summery</h2>
+        <h2>Thank you for ordering! :)</h2>
+        <h5>summery</h5>
         <table style={{ margin: "auto" }}>
           <thead>
             <th className='borders'>total items</th>

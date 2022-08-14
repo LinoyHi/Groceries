@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body{
+  display: flex;
+}
+
 .borders{
   border: 1px solid black;
   cursor: pointer;

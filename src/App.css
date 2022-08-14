@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.borders{
+  border: 1px solid black;
+}
+
+.grocListImg{
+  width: 3vw;
+  height: 3vw;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

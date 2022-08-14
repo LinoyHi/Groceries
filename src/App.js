@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import getitems from './DAL/dal';
 
 function App() {
+  const [items,setitems]= useState()
+
+  useEffect(()=>
+  setitems(getitems())
+  ,[])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
       </header>
+      <body>
+        {items?.map(item=><h1>{item.name}</h1>)}
+      </body>
+      <footer>
+      </footer>
     </div>
   );
 }

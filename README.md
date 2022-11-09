@@ -1,3 +1,10 @@
+# What is it?
+This is a small project made fully to show I know how to work with git proparlly using branches as a test in the course I took
+
+# What it includes?
+As can tell by the rest of the README this project created with React and includes: component for each item in the grocery lists after making an order a Modal is shown with the totals and after you close it the page resets
+* please note this was a time limited test and my main focus was to get all the functions working multipule refactors are in need and a few things like title each column are in need
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

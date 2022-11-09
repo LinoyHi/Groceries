@@ -1,9 +1,14 @@
 # What is it?
-This is a small project made fully to show I know how to work with git proparlly using branches as a test in the course I took
+This is a small project made fully to show I know how to work with git proparlly using branches as a test in the course I took;
+hope you can still find something in this project helpful.
 
 # What it includes?
-As can tell by the rest of the README this project created with React and includes: component for each item in the grocery lists after making an order a Modal is shown with the totals and after you close it the page resets
-* please note this was a time limited test and my main focus was to get all the functions working multipule refactors are in need and a few things like title each column are in need
+This project was created with Bootstrap and, as you can tell by the rest of the README, React.
+That includes: 
+- [ ] component for each item in the grocery lists 
+- [ ] Modal is shown with the totals after an order
+- [ ] functions like moving an item from the grocery list to the shopping list and a reset function
+* please note this was a time limited test and my main focus was to get all the functions working; multipule refactors and a few things (like title each column) are in need.
 
 # Getting Started with Create React App
 
